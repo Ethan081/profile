@@ -1,70 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>EZ Profil</title>
-   <link rel="stylesheet" href="style.css">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700|Source+Sans+Pro" rel="stylesheet">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <title>EZ Profil</title>
+     <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700|Source+Sans+Pro" rel="stylesheet">
+  </head>
 
-<body>
+  <body>
+    <div id="sidebar">
+    <ul>
+      <li><a href="#about"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+      <li><a href="#movies"><i class="fa fa-film" aria-hidden="true"></i></a></li>
+      <li><a href="#anchor"><i class="fa fa-anchor" aria-hidden="true"></i></a></li>
+    </ul>
 
-  <div class="container">
-
-    <div class="card align-center">
-      <img class="img-circle" src="images/WEtienne.jpg" alt="">
-      <h1>Etienne ZIEGELMEYER</h1>
-
-      <h2>Web Programmer</h2>
-
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, nostrum, corporis mollitia nam architecto sint optio alias a molestiae ab sed delectus vitae ut, sunt id, debitis quas eius fuga.
-      </p>
-
-      <a href="www.lewagon.org" class="button">See for Yourself</a>
     </div>
 
-    <div class="social">
-      <ul class="align-center">
-        <li>
-          <a href="https://fr-fr.facebook.com/"><i class="fa fa-facebook"></i></a>
-        </li>
-        <li>
-          <a href="https://GitHub.com/"><i class="fa fa-github" aria-hidden="true"></i></a>
-        </li>
-        <li>
-          <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
-        </li>
-      </ul>
-    </div>
+    <div id="page-content">
+
+      <div class="container">
+
+        <div class="card text-center" id="about">
+          <img src="images/WEtienne.jpg" alt="Portrait EZ" class="img-circle">
+          <h1>Etienne ZIEGELMEYER</h1>
+          <h2>Conversion Plan</h2>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, nostrum, corporis mollitia nam architecto.
+          </p>
+
+          <a href="https://jsbin.com" class="btn-green">Web Page</a>
+        </div>
+
+        <div class="card text-center">
+          <ul class="list-inline">
+            <li>
+              <a href="https://fr-fr.facebook.com/"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://GitHub.com/"><i class="fa fa-github" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+            </li>
+          </ul>
+        </div>
 
 
-    <div class="table-movie">
-      <h2>My Favorite movies</h2>
-      <table>
-        <tbody>
-          <tr>
-              <td class="image_movie">
-                <img src="images/valerian.jpg" alt="valerian_movie_picture">
-              </td>
-              <td class="image_movie">
-                <h3>Valérian</h3>
-                <p>
-                Au 28ème siècle, Valérian et Laureline forment une équipe d'agents spatio-temporels chargés de maintenir l'ordre dans les territoires humains. Mandaté par le Ministre de la Défense, le duo part en mission sur l’extraordinaire cité intergalactique Alpha - une métropole en constante expansion où des espèces venues de l'univers tout entier ont convergé au fil des siècles pour partager leurs connaissances, leur savoir-faire et leur culture. Un mystère se cache au cœur d'Alpha, une force obscure qui menace l'existence paisible de la Cité des Mille Planètes. Valérian et Laureline vont devoir engager une course contre la montre pour identifier la terrible menace et sauvegarder non seulement Alpha, mais l'avenir de l'univers.
-                </p>
-              </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="link">
-      <h2>About this page</h2>
-      <p>
-      This page has been coded during the <a href="http://www.lewagon.org" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
-      </p>
-    </div>
+        <div class="card" id="movies">
+          <h2>My Last watching movie</h2>
+          <table>
+            <tbody>
+              <tr>
+                  <td>
+                    <img src="images/valerian.jpg" alt="valerian_movie_picture">
+                  </td>
+                  <td>
+                    <h3>VALERIAN</h3>
+                    <p>
+                    Au 28ème siècle, Valérian et Laureline forment une équipe d'agents spatio-temporels chargés de maintenir l'ordre dans les territoires humains.
+                    </p>
+                  </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-  </div>
-</body>
+        <div class="card">
+          <h2>Why not ! </h2>
+          <table>
+            <tbody>
+              <tr>
+                  <td>
+                    <img src="images/ass_jungle.jpg" alt="_movie_picture">
+                  </td>
+                  <td>
+                    <h3>LES AS DE LA JUNGLE</h3>
+                    <p>
+                    Maurice a tout d’un pingouin… mais le tigre est en lui !
+                    Elevé par une tigresse, ce pingouin loin d’être manchot est devenu un pro du Kung Fu.
+                    Avec ses amis, les As de la jungle, Maurice entend dorénavant faire régner l’ordre et la justice dans la jungle, comme sa mère avant lui.
+                    </p>
+                  </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="card" id="anchor">
+          <h2>About this page</h2>
+          <p>
+          This page has been coded during the <a href="http://www.lewagon.org" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
+
